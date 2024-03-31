@@ -44,7 +44,7 @@ class TestMuseum(unittest.TestCase):
                                  self.items_for_exhibition, "Modern Art")
 
         # Creating a Visitor instance
-        self.visitor1 = Visitor(1, "John", "Doe", 30)
+        self.visitor1 = Visitor(1, "Sarah", "Ali", 30)
 
         # Creating Ticket instances for the visitor for different events
         self.ticket1 = Ticket(1, self.visitor1, 50, 50, self.event1)
